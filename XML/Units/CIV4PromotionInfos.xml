@@ -1,19 +1,15 @@
-<?xml version="1.0"?>
-<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
-<!-- Sid Meier's Civilization 4 -->
-<!-- Copyright Firaxis Games 2005 -->
-<!-- -->
-<!-- Promotion Infos -->
-<Civ4PromotionInfos xmlns="x-schema:CIV4UnitSchema.xml">
+<?xml version="1.0" encoding="UTF-8"?><!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) --><!-- Sid Meier's Civilization 4 --><!-- Copyright Firaxis Games 2005 --><!-- --><!-- Promotion Infos --><Civ4PromotionInfos xmlns="x-schema:CIV4UnitSchema.xml">
 	<PromotionInfos>
 		<PromotionInfo>
 			<Type>PROMOTION_COMBAT1</Type>
 			<Description>TXT_KEY_PROMOTION_COMBAT1</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>NONE</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -25,7 +21,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -46,7 +46,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -70,10 +72,6 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
@@ -87,6 +85,10 @@
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_AIR</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -101,10 +103,12 @@
 			<Type>PROMOTION_COMBAT2</Type>
 			<Description>TXT_KEY_PROMOTION_COMBAT2</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_COMBAT1</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -116,7 +120,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -137,7 +145,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -161,10 +171,6 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
@@ -178,6 +184,10 @@
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_AIR</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -192,10 +202,12 @@
 			<Type>PROMOTION_COMBAT3</Type>
 			<Description>TXT_KEY_PROMOTION_COMBAT3</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -207,7 +219,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -228,7 +244,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -252,10 +270,6 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
@@ -271,6 +285,10 @@
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_AIR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -283,10 +301,12 @@
 			<Type>PROMOTION_COMBAT4</Type>
 			<Description>TXT_KEY_PROMOTION_COMBAT4</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_COMBAT3</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -298,7 +318,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -319,7 +343,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -343,10 +369,6 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
@@ -362,6 +384,10 @@
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_AIR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -374,10 +400,12 @@
 			<Type>PROMOTION_COMBAT5</Type>
 			<Description>TXT_KEY_PROMOTION_COMBAT5</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_COMBAT4</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -389,7 +417,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -410,7 +442,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -434,10 +468,6 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
@@ -453,6 +483,10 @@
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_AIR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -465,10 +499,12 @@
 			<Type>PROMOTION_COVER</Type>
 			<Description>TXT_KEY_PROMOTION_COVER</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_COMBAT1</PromotionPrereqOr1>
 			<PromotionPrereqOr2>PROMOTION_DRILL1</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -480,7 +516,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -501,7 +541,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods>
 				<UnitCombatMod>
@@ -537,10 +579,12 @@
 			<Type>PROMOTION_SHOCK</Type>
 			<Description>TXT_KEY_PROMOTION_SHOCK</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_COMBAT1</PromotionPrereqOr1>
 			<PromotionPrereqOr2>PROMOTION_DRILL1</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -552,7 +596,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -573,7 +621,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods>
 				<UnitCombatMod>
@@ -613,10 +663,12 @@
 			<Type>PROMOTION_PINCH</Type>
 			<Description>TXT_KEY_PROMOTION_PINCH</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_COMBAT1</PromotionPrereqOr1>
 			<PromotionPrereqOr2>PROMOTION_DRILL1</PromotionPrereqOr2>
 			<TechPrereq>TECH_GUNPOWDER</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -628,7 +680,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -649,7 +705,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods>
 				<UnitCombatMod>
@@ -677,6 +735,10 @@
 					<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_AIR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -689,10 +751,12 @@
 			<Type>PROMOTION_FORMATION</Type>
 			<Description>TXT_KEY_PROMOTION_FORMATION</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
 			<PromotionPrereqOr2>PROMOTION_DRILL2</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -704,7 +768,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -725,7 +793,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods>
 				<UnitCombatMod>
@@ -765,10 +835,12 @@
 			<Type>PROMOTION_CHARGE</Type>
 			<Description>TXT_KEY_PROMOTION_CHARGE</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
-			<PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
+			<PromotionPrereqOr1>PROMOTION_COMBAT1</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -780,7 +852,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -801,7 +877,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods>
 				<UnitCombatMod>
@@ -841,10 +919,12 @@
 			<Type>PROMOTION_AMBUSH</Type>
 			<Description>TXT_KEY_PROMOTION_AMBUSH</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
-			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+			<PromotionPrereqOr2>PROMOTION_DRILL2</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -856,7 +936,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -877,7 +961,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods>
 				<UnitCombatMod>
@@ -905,6 +991,10 @@
 					<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_AIR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -917,10 +1007,12 @@
 			<Type>PROMOTION_AMPHIBIOUS</Type>
 			<Description>TXT_KEY_PROMOTION_AMPHIBIOUS</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>1</bAmphib>
@@ -932,7 +1024,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -953,7 +1049,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -992,10 +1090,12 @@
 			<Type>PROMOTION_MARCH</Type>
 			<Description>TXT_KEY_PROMOTION_MARCH</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_COMBAT3</PromotionPrereqOr1>
 			<PromotionPrereqOr2>PROMOTION_MEDIC1</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -1007,7 +1107,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -1028,7 +1132,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -1071,10 +1177,12 @@
 			<Type>PROMOTION_BLITZ</Type>
 			<Description>TXT_KEY_PROMOTION_BLITZ</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_COMBAT3</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_MILITARY_SCIENCE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>1</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -1086,7 +1194,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -1107,7 +1219,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -1126,6 +1240,10 @@
 					<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -1138,10 +1256,12 @@
 			<Type>PROMOTION_COMMANDO</Type>
 			<Description>TXT_KEY_PROMOTION_COMMANDO</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_COMBAT4</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-			<TechPrereq>NONE</TechPrereq>
+			<TechPrereq>TECH_MILITARY_SCIENCE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -1153,7 +1273,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -1174,7 +1298,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -1217,10 +1343,12 @@
 			<Type>PROMOTION_MEDIC1</Type>
 			<Description>TXT_KEY_PROMOTION_MEDIC1</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_COMBAT1</PromotionPrereqOr1>
-			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+			<PromotionPrereqOr2>PROMOTION_DRILL1</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -1232,7 +1360,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -1253,7 +1385,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -1300,10 +1434,12 @@
 			<Type>PROMOTION_MEDIC2</Type>
 			<Description>TXT_KEY_PROMOTION_MEDIC2</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_MEDIC1</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -1315,7 +1451,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -1336,7 +1476,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -1383,10 +1525,12 @@
 			<Type>PROMOTION_GUERILLA1</Type>
 			<Description>TXT_KEY_PROMOTION_GUERILLA1</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>NONE</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -1398,7 +1542,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -1419,7 +1567,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -1450,10 +1600,12 @@
 			<Type>PROMOTION_GUERILLA2</Type>
 			<Description>TXT_KEY_PROMOTION_GUERILLA2</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_GUERILLA1</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -1465,7 +1617,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -1486,7 +1642,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -1521,10 +1679,12 @@
 			<Type>PROMOTION_GUERILLA3</Type>
 			<Description>TXT_KEY_PROMOTION_GUERILLA3</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_GUERILLA2</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -1536,7 +1696,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
-			<iWithdrawalChange>30</iWithdrawalChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
+			<iWithdrawalChange>50</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -1557,7 +1721,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -1588,10 +1754,12 @@
 			<Type>PROMOTION_WOODSMAN1</Type>
 			<Description>TXT_KEY_PROMOTION_WOODSMAN1</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>NONE</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -1603,7 +1771,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -1624,7 +1796,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses>
 				<FeatureDefense>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
@@ -1664,10 +1838,12 @@
 			<Type>PROMOTION_WOODSMAN2</Type>
 			<Description>TXT_KEY_PROMOTION_WOODSMAN2</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_WOODSMAN1</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -1679,7 +1855,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -1700,7 +1880,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses>
 				<FeatureDefense>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
@@ -1746,13 +1928,15 @@
 			<Button>,Art/Interface/Buttons/Promotions/Woodsman2.dds,Art/Interface/Buttons/Promotions_Atlas.dds,7,6</Button>
 		</PromotionInfo>
 		<PromotionInfo>
-			<Type>PROMOTION_CITY_RAIDER1</Type>
-			<Description>TXT_KEY_PROMOTION_CITYRAIDER1</Description>
+			<Type>PROMOTION_WOODSMAN3</Type>
+			<Description>TXT_KEY_PROMOTION_WOODSMAN3</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
-			<PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+			<PromotionPrereqOr1>PROMOTION_WOODSMAN2</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -1764,7 +1948,91 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
+			<iCollateralDamageChange>0</iCollateralDamageChange>
+			<iBombardRateChange>0</iBombardRateChange>
+			<iFirstStrikesChange>2</iFirstStrikesChange>
+			<iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+			<iEnemyHealChange>0</iEnemyHealChange>
+			<iNeutralHealChange>0</iNeutralHealChange>
+			<iFriendlyHealChange>0</iFriendlyHealChange>
+			<iSameTileHealChange>15</iSameTileHealChange>
+			<iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+			<iCombatPercent>0</iCombatPercent>
+			<iCityAttack>0</iCityAttack>
+			<iCityDefense>0</iCityDefense>
+			<iHillsAttack>0</iHillsAttack>
+			<iHillsDefense>0</iHillsDefense>
+			<iKamikazePercent>0</iKamikazePercent>
+			<iRevoltProtection>0</iRevoltProtection>
+			<iCollateralDamageProtection>0</iCollateralDamageProtection>
+			<iPillageChange>0</iPillageChange>
+			<iUpgradeDiscount>0</iUpgradeDiscount>
+			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
+			<TerrainDefenses/>
+			<FeatureAttacks>
+				<FeatureAttack>
+					<FeatureType>FEATURE_JUNGLE</FeatureType>
+					<iFeatureAttack>50</iFeatureAttack>
+				</FeatureAttack>
+				<FeatureAttack>
+					<FeatureType>FEATURE_FOREST</FeatureType>
+					<iFeatureAttack>50</iFeatureAttack>
+				</FeatureAttack>
+			</FeatureAttacks>
+			<FeatureDefenses/>
+			<UnitCombatMods/>
+			<DomainMods/>
+			<TerrainDoubleMoves/>
+			<FeatureDoubleMoves/>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
+			<HotKey/>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<Button>,Art/Interface/Buttons/Promotions/Woodsman2.dds,Art/Interface/Buttons/Promotions_Atlas.dds,8,6</Button>
+		</PromotionInfo>
+		<PromotionInfo>
+			<Type>PROMOTION_CITY_RAIDER1</Type>
+			<Description>TXT_KEY_PROMOTION_CITYRAIDER1</Description>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
+			<PromotionPrereq>NONE</PromotionPrereq>
+			<PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
+			<bLeader>0</bLeader>
+			<bBlitz>0</bBlitz>
+			<bAmphib>0</bAmphib>
+			<bRiver>0</bRiver>
+			<bEnemyRoute>0</bEnemyRoute>
+			<bAlwaysHeal>0</bAlwaysHeal>
+			<bHillsDoubleMove>0</bHillsDoubleMove>
+			<bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+			<iVisibilityChange>0</iVisibilityChange>
+			<iMovesChange>0</iMovesChange>
+			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
+			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -1785,7 +2053,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -1816,10 +2086,12 @@
 			<Type>PROMOTION_CITY_RAIDER2</Type>
 			<Description>TXT_KEY_PROMOTION_CITYRAIDER2</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_CITY_RAIDER1</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -1831,7 +2103,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -1852,7 +2128,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -1883,10 +2161,12 @@
 			<Type>PROMOTION_CITY_RAIDER3</Type>
 			<Description>TXT_KEY_PROMOTION_CITYRAIDER3</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_CITY_RAIDER2</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -1898,7 +2178,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -1919,7 +2203,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods>
 				<UnitCombatMod>
@@ -1955,10 +2241,12 @@
 			<Type>PROMOTION_CITY_GARRISON1</Type>
 			<Description>TXT_KEY_PROMOTION_GARRISON1</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>NONE</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -1970,7 +2258,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -1991,7 +2283,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -2018,10 +2312,12 @@
 			<Type>PROMOTION_CITY_GARRISON2</Type>
 			<Description>TXT_KEY_PROMOTION_GARRISON2</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_CITY_GARRISON1</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -2033,7 +2329,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -2054,7 +2354,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -2081,10 +2383,12 @@
 			<Type>PROMOTION_CITY_GARRISON3</Type>
 			<Description>TXT_KEY_PROMOTION_GARRISON3</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_CITY_GARRISON2</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -2096,7 +2400,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -2117,7 +2425,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods>
 				<UnitCombatMod>
@@ -2149,10 +2459,12 @@
 			<Type>PROMOTION_DRILL1</Type>
 			<Description>TXT_KEY_PROMOTION_DRILL1</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>NONE</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -2164,7 +2476,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -2185,7 +2501,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -2198,6 +2516,10 @@
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
@@ -2224,10 +2546,12 @@
 			<Type>PROMOTION_DRILL2</Type>
 			<Description>TXT_KEY_PROMOTION_DRILL2</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_DRILL1</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -2239,7 +2563,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>1</iFirstStrikesChange>
@@ -2260,7 +2588,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -2276,6 +2606,10 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
@@ -2285,6 +2619,10 @@
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -2299,10 +2637,12 @@
 			<Type>PROMOTION_DRILL3</Type>
 			<Description>TXT_KEY_PROMOTION_DRILL3</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_DRILL2</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -2314,7 +2654,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -2335,7 +2679,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -2351,6 +2697,10 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
@@ -2360,6 +2710,10 @@
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -2374,10 +2728,12 @@
 			<Type>PROMOTION_DRILL4</Type>
 			<Description>TXT_KEY_PROMOTION_DRILL4</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_DRILL3</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -2389,7 +2745,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>2</iFirstStrikesChange>
@@ -2410,7 +2770,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods>
 				<UnitCombatMod>
@@ -2431,6 +2793,10 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
@@ -2440,6 +2806,10 @@
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -2454,10 +2824,12 @@
 			<Type>PROMOTION_BARRAGE1</Type>
 			<Description>TXT_KEY_PROMOTION_BARRAGE1</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>NONE</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -2469,7 +2841,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>20</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -2490,7 +2866,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -2499,10 +2877,6 @@
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
@@ -2521,10 +2895,12 @@
 			<Type>PROMOTION_BARRAGE2</Type>
 			<Description>TXT_KEY_PROMOTION_BARRAGE2</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_BARRAGE1</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -2536,7 +2912,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>30</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -2557,7 +2937,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods>
 				<UnitCombatMod>
@@ -2571,10 +2953,6 @@
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
@@ -2593,10 +2971,12 @@
 			<Type>PROMOTION_BARRAGE3</Type>
 			<Description>TXT_KEY_PROMOTION_BARRAGE3</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_BARRAGE2</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -2608,7 +2988,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>50</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -2629,7 +3013,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods>
 				<UnitCombatMod>
@@ -2643,10 +3029,6 @@
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
@@ -2665,10 +3047,12 @@
 			<Type>PROMOTION_ACCURACY</Type>
 			<Description>TXT_KEY_PROMOTION_ACCURACY</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_CITY_RAIDER1</PromotionPrereqOr1>
 			<PromotionPrereqOr2>PROMOTION_BARRAGE1</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -2680,9 +3064,13 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
-			<iBombardRateChange>10</iBombardRateChange>
+			<iBombardRateChange>8</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
 			<iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
 			<iEnemyHealChange>0</iEnemyHealChange>
@@ -2701,7 +3089,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -2724,10 +3114,12 @@
 			<Type>PROMOTION_FLANKING1</Type>
 			<Description>TXT_KEY_PROMOTION_FLANKING1</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>NONE</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -2739,7 +3131,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>10</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -2760,7 +3156,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -2795,10 +3193,12 @@
 			<Type>PROMOTION_FLANKING2</Type>
 			<Description>TXT_KEY_PROMOTION_FLANKING2</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_FLANKING1</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -2810,7 +3210,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>20</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -2831,7 +3235,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -2866,10 +3272,12 @@
 			<Type>PROMOTION_SENTRY</Type>
 			<Description>TXT_KEY_PROMOTION_SENTRY</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_FLANKING1</PromotionPrereqOr1>
 			<PromotionPrereqOr2>PROMOTION_COMBAT3</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -2881,7 +3289,11 @@
 			<iVisibilityChange>1</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -2902,7 +3314,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -2937,10 +3351,12 @@
 			<Type>PROMOTION_MOBILITY</Type>
 			<Description>TXT_KEY_PROMOTION_MOBILITY</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_FLANKING2</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -2952,7 +3368,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>1</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -2973,7 +3393,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -3000,10 +3422,12 @@
 			<Type>PROMOTION_NAVIGATION1</Type>
 			<Description>TXT_KEY_PROMOTION_NAVIGATION1</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_FLANKING1</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -3015,7 +3439,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>1</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -3036,7 +3464,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -3059,10 +3489,12 @@
 			<Type>PROMOTION_NAVIGATION2</Type>
 			<Description>TXT_KEY_PROMOTION_NAVIGATION2</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>PROMOTION_FLANKING1</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_NAVIGATION1</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -3074,7 +3506,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>1</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -3095,7 +3531,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -3118,10 +3556,12 @@
 			<Type>PROMOTION_LEADER</Type>
 			<Description>TXT_KEY_PROMOTION_GREAT_GENERAL</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>NONE</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>1</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -3133,7 +3573,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -3154,7 +3598,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>100</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -3209,10 +3655,12 @@
 			<Type>PROMOTION_LEADERSHIP</Type>
 			<Description>TXT_KEY_PROMOTION_LEADERSHIP</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>PROMOTION_LEADER</PromotionPrereq>
 			<PromotionPrereqOr1>NONE</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -3224,7 +3672,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -3245,7 +3697,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>100</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -3300,10 +3754,12 @@
 			<Type>PROMOTION_TACTICS</Type>
 			<Description>TXT_KEY_PROMOTION_TACTICS</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>PROMOTION_LEADER</PromotionPrereq>
 			<PromotionPrereqOr1>NONE</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -3315,7 +3771,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>30</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -3336,7 +3796,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -3391,10 +3853,12 @@
 			<Type>PROMOTION_COMBAT6</Type>
 			<Description>TXT_KEY_PROMOTION_COMBAT6</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>PROMOTION_LEADER</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_COMBAT5</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -3406,7 +3870,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -3427,7 +3895,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -3451,10 +3921,6 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
@@ -3470,6 +3936,10 @@
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_AIR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -3482,10 +3952,12 @@
 			<Type>PROMOTION_MORALE</Type>
 			<Description>TXT_KEY_PROMOTION_MORALE</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>PROMOTION_LEADER</PromotionPrereq>
 			<PromotionPrereqOr1>NONE</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -3497,7 +3969,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>1</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -3518,7 +3994,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -3573,10 +4051,12 @@
 			<Type>PROMOTION_MEDIC3</Type>
 			<Description>TXT_KEY_PROMOTION_MEDIC3</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>PROMOTION_LEADER</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_MEDIC2</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -3588,7 +4068,11 @@
 			<iVisibilityChange>0</iVisibilityChange>
 			<iMovesChange>0</iMovesChange>
 			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
 			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
 			<iCollateralDamageChange>0</iCollateralDamageChange>
 			<iBombardRateChange>0</iBombardRateChange>
 			<iFirstStrikesChange>0</iFirstStrikesChange>
@@ -3609,7 +4093,9 @@
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
 			<TerrainDefenses/>
+			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
 			<DomainMods/>
@@ -3651,6 +4137,349 @@
 			<bCtrlDown>0</bCtrlDown>
 			<iHotKeyPriority>0</iHotKeyPriority>
 			<Button>,Art/Interface/Buttons/Promotions/Combat5.dds,Art/Interface/Buttons/Warlords_Atlas_1.dds,8,16</Button>
+		</PromotionInfo>
+		<PromotionInfo>
+			<Type>PROMOTION_RANGE1</Type>
+			<Description>TXT_KEY_PROMOTION_RANGE1</Description>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
+			<PromotionPrereq>NONE</PromotionPrereq>
+			<PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
+			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
+			<bLeader>0</bLeader>
+			<bBlitz>0</bBlitz>
+			<bAmphib>0</bAmphib>
+			<bRiver>0</bRiver>
+			<bEnemyRoute>0</bEnemyRoute>
+			<bAlwaysHeal>0</bAlwaysHeal>
+			<bHillsDoubleMove>0</bHillsDoubleMove>
+			<bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+			<iVisibilityChange>0</iVisibilityChange>
+			<iMovesChange>0</iMovesChange>
+			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>1</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
+			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
+			<iCollateralDamageChange>0</iCollateralDamageChange>
+			<iBombardRateChange>0</iBombardRateChange>
+			<iFirstStrikesChange>0</iFirstStrikesChange>
+			<iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+			<iEnemyHealChange>0</iEnemyHealChange>
+			<iNeutralHealChange>0</iNeutralHealChange>
+			<iFriendlyHealChange>0</iFriendlyHealChange>
+			<iSameTileHealChange>0</iSameTileHealChange>
+			<iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+			<iCombatPercent>0</iCombatPercent>
+			<iCityAttack>0</iCityAttack>
+			<iCityDefense>0</iCityDefense>
+			<iHillsAttack>0</iHillsAttack>
+			<iHillsDefense>0</iHillsDefense>
+			<iKamikazePercent>0</iKamikazePercent>
+			<iRevoltProtection>0</iRevoltProtection>
+			<iCollateralDamageProtection>0</iCollateralDamageProtection>
+			<iPillageChange>0</iPillageChange>
+			<iUpgradeDiscount>0</iUpgradeDiscount>
+			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
+			<TerrainDefenses/>
+			<FeatureAttacks/>
+			<FeatureDefenses/>
+			<UnitCombatMods/>
+			<DomainMods/>
+			<TerrainDoubleMoves/>
+			<FeatureDoubleMoves/>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_AIR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
+			<HotKey/>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<Button>,Art/Interface/Buttons/TechTree/Corporation.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,1,15</Button>
+		</PromotionInfo>
+		<PromotionInfo>
+			<Type>PROMOTION_RANGE2</Type>
+			<Description>TXT_KEY_PROMOTION_RANGE2</Description>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
+			<PromotionPrereq>NONE</PromotionPrereq>
+			<PromotionPrereqOr1>PROMOTION_RANGE1</PromotionPrereqOr1>
+			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
+			<bLeader>0</bLeader>
+			<bBlitz>0</bBlitz>
+			<bAmphib>0</bAmphib>
+			<bRiver>0</bRiver>
+			<bEnemyRoute>0</bEnemyRoute>
+			<bAlwaysHeal>0</bAlwaysHeal>
+			<bHillsDoubleMove>0</bHillsDoubleMove>
+			<bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+			<iVisibilityChange>0</iVisibilityChange>
+			<iMovesChange>0</iMovesChange>
+			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>1</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
+			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
+			<iCollateralDamageChange>0</iCollateralDamageChange>
+			<iBombardRateChange>0</iBombardRateChange>
+			<iFirstStrikesChange>0</iFirstStrikesChange>
+			<iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+			<iEnemyHealChange>0</iEnemyHealChange>
+			<iNeutralHealChange>0</iNeutralHealChange>
+			<iFriendlyHealChange>0</iFriendlyHealChange>
+			<iSameTileHealChange>0</iSameTileHealChange>
+			<iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+			<iCombatPercent>0</iCombatPercent>
+			<iCityAttack>0</iCityAttack>
+			<iCityDefense>0</iCityDefense>
+			<iHillsAttack>0</iHillsAttack>
+			<iHillsDefense>0</iHillsDefense>
+			<iKamikazePercent>0</iKamikazePercent>
+			<iRevoltProtection>0</iRevoltProtection>
+			<iCollateralDamageProtection>0</iCollateralDamageProtection>
+			<iPillageChange>0</iPillageChange>
+			<iUpgradeDiscount>0</iUpgradeDiscount>
+			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
+			<TerrainDefenses/>
+			<FeatureAttacks/>
+			<FeatureDefenses/>
+			<UnitCombatMods/>
+			<DomainMods/>
+			<TerrainDoubleMoves/>
+			<FeatureDoubleMoves/>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_AIR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
+			<HotKey/>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<Button>,Art/Interface/Buttons/TechTree/Corporation.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,2,15</Button>
+		</PromotionInfo>
+		<PromotionInfo>
+			<Type>PROMOTION_INTERCEPTION1</Type>
+			<Description>TXT_KEY_PROMOTION_INTERCEPTION1</Description>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
+			<PromotionPrereq>NONE</PromotionPrereq>
+			<PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
+			<bLeader>0</bLeader>
+			<bBlitz>0</bBlitz>
+			<bAmphib>0</bAmphib>
+			<bRiver>0</bRiver>
+			<bEnemyRoute>0</bEnemyRoute>
+			<bAlwaysHeal>0</bAlwaysHeal>
+			<bHillsDoubleMove>0</bHillsDoubleMove>
+			<bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+			<iVisibilityChange>0</iVisibilityChange>
+			<iMovesChange>0</iMovesChange>
+			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>10</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
+			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
+			<iCollateralDamageChange>0</iCollateralDamageChange>
+			<iBombardRateChange>0</iBombardRateChange>
+			<iFirstStrikesChange>0</iFirstStrikesChange>
+			<iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+			<iEnemyHealChange>0</iEnemyHealChange>
+			<iNeutralHealChange>0</iNeutralHealChange>
+			<iFriendlyHealChange>0</iFriendlyHealChange>
+			<iSameTileHealChange>0</iSameTileHealChange>
+			<iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+			<iCombatPercent>0</iCombatPercent>
+			<iCityAttack>0</iCityAttack>
+			<iCityDefense>0</iCityDefense>
+			<iHillsAttack>0</iHillsAttack>
+			<iHillsDefense>0</iHillsDefense>
+			<iKamikazePercent>0</iKamikazePercent>
+			<iRevoltProtection>0</iRevoltProtection>
+			<iCollateralDamageProtection>0</iCollateralDamageProtection>
+			<iPillageChange>0</iPillageChange>
+			<iUpgradeDiscount>0</iUpgradeDiscount>
+			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
+			<TerrainDefenses/>
+			<FeatureAttacks/>
+			<FeatureDefenses/>
+			<UnitCombatMods/>
+			<DomainMods/>
+			<TerrainDoubleMoves/>
+			<FeatureDoubleMoves/>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_AIR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
+			<HotKey/>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<Button>,Art/Interface/Buttons/TechTree/Corporation.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,3,15</Button>
+		</PromotionInfo>
+		<PromotionInfo>
+			<Type>PROMOTION_INTERCEPTION2</Type>
+			<Description>TXT_KEY_PROMOTION_INTERCEPTION2</Description>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
+			<PromotionPrereq>NONE</PromotionPrereq>
+			<PromotionPrereqOr1>PROMOTION_INTERCEPTION1</PromotionPrereqOr1>
+			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
+			<bLeader>0</bLeader>
+			<bBlitz>0</bBlitz>
+			<bAmphib>0</bAmphib>
+			<bRiver>0</bRiver>
+			<bEnemyRoute>0</bEnemyRoute>
+			<bAlwaysHeal>0</bAlwaysHeal>
+			<bHillsDoubleMove>0</bHillsDoubleMove>
+			<bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+			<iVisibilityChange>0</iVisibilityChange>
+			<iMovesChange>0</iMovesChange>
+			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>20</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
+			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
+			<iCollateralDamageChange>0</iCollateralDamageChange>
+			<iBombardRateChange>0</iBombardRateChange>
+			<iFirstStrikesChange>0</iFirstStrikesChange>
+			<iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+			<iEnemyHealChange>0</iEnemyHealChange>
+			<iNeutralHealChange>0</iNeutralHealChange>
+			<iFriendlyHealChange>0</iFriendlyHealChange>
+			<iSameTileHealChange>0</iSameTileHealChange>
+			<iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+			<iCombatPercent>0</iCombatPercent>
+			<iCityAttack>0</iCityAttack>
+			<iCityDefense>0</iCityDefense>
+			<iHillsAttack>0</iHillsAttack>
+			<iHillsDefense>0</iHillsDefense>
+			<iKamikazePercent>0</iKamikazePercent>
+			<iRevoltProtection>0</iRevoltProtection>
+			<iCollateralDamageProtection>0</iCollateralDamageProtection>
+			<iPillageChange>0</iPillageChange>
+			<iUpgradeDiscount>0</iUpgradeDiscount>
+			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
+			<TerrainDefenses/>
+			<FeatureAttacks/>
+			<FeatureDefenses/>
+			<UnitCombatMods/>
+			<DomainMods/>
+			<TerrainDoubleMoves/>
+			<FeatureDoubleMoves/>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_AIR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
+			<HotKey/>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<Button>,Art/Interface/Buttons/TechTree/Corporation.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,4,15</Button>
+		</PromotionInfo>
+		<PromotionInfo>
+			<Type>PROMOTION_ACE</Type>
+			<Description>TXT_KEY_PROMOTION_ACE</Description>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
+			<PromotionPrereq>NONE</PromotionPrereq>
+			<PromotionPrereqOr1>PROMOTION_COMBAT3</PromotionPrereqOr1>
+			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
+			<bLeader>0</bLeader>
+			<bBlitz>0</bBlitz>
+			<bAmphib>0</bAmphib>
+			<bRiver>0</bRiver>
+			<bEnemyRoute>0</bEnemyRoute>
+			<bAlwaysHeal>0</bAlwaysHeal>
+			<bHillsDoubleMove>0</bHillsDoubleMove>
+			<bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+			<iVisibilityChange>0</iVisibilityChange>
+			<iMovesChange>0</iMovesChange>
+			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>25</iEvasionChange>
+			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
+			<iCollateralDamageChange>0</iCollateralDamageChange>
+			<iBombardRateChange>0</iBombardRateChange>
+			<iFirstStrikesChange>0</iFirstStrikesChange>
+			<iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+			<iEnemyHealChange>0</iEnemyHealChange>
+			<iNeutralHealChange>0</iNeutralHealChange>
+			<iFriendlyHealChange>0</iFriendlyHealChange>
+			<iSameTileHealChange>0</iSameTileHealChange>
+			<iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+			<iCombatPercent>0</iCombatPercent>
+			<iCityAttack>0</iCityAttack>
+			<iCityDefense>0</iCityDefense>
+			<iHillsAttack>0</iHillsAttack>
+			<iHillsDefense>0</iHillsDefense>
+			<iKamikazePercent>0</iKamikazePercent>
+			<iRevoltProtection>0</iRevoltProtection>
+			<iCollateralDamageProtection>0</iCollateralDamageProtection>
+			<iPillageChange>0</iPillageChange>
+			<iUpgradeDiscount>0</iUpgradeDiscount>
+			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
+			<TerrainDefenses/>
+			<FeatureAttacks/>
+			<FeatureDefenses/>
+			<UnitCombatMods/>
+			<DomainMods/>
+			<TerrainDoubleMoves/>
+			<FeatureDoubleMoves/>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_AIR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
+			<HotKey/>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<Button>,Art/Interface/Buttons/TechTree/Corporation.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,5,15</Button>
 		</PromotionInfo>
 	</PromotionInfos>
 </Civ4PromotionInfos>

@@ -11,6 +11,10 @@
 			<Path>Art/Movies/Intros/BTS Intro Final.bik</Path>
 		</MovieArtInfo>
 		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_RSOC</Type>
+			<Path>Art/Movies/RSOCMOVIE.dds</Path>
+		</MovieArtInfo>
+		<MovieArtInfo>
 			<Type>ART_DEF_MOVIE_2K_INTRO</Type>
 			<Path>Art/Movies/Intros/2KG_NTSC.bik</Path>
 		</MovieArtInfo>

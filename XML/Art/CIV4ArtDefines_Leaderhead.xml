@@ -7,6 +7,14 @@
 <Civ4ArtDefines xmlns="x-schema:CIV4ArtDefinesSchema.xml">
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_TROVEN</Type>
+			<Button>art/interface/Leaderheads/btn_lh_france_napoleon.dds</Button>
+			<NIF>art/LeaderHeads/troven/napoleon.nif</NIF>
+			<KFM>art/LeaderHeads/troven/napoleon.kfm</KFM>
+			<NoShaderNIF>art/LeaderHeads/troven/napoleon_noshader.nif</NoShaderNIF>
+			<BackgroundKFM>art/LeaderHeads/troven/napoleon_bg.kfm</BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_BARBARIAN</Type>
 			<Button>,Art/interface/LeaderHeads/Btn_LH_Mongol_Genghis.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,6,12</Button>
 			<NIF>art/LeaderHeads/Sid/sid.nif</NIF>

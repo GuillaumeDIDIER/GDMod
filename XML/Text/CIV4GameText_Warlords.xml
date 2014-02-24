@@ -12441,6 +12441,30 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UNIT_TRIREME_OFFICER</Tag>
+		<English>Trireme Officer</English>
+		<French>
+			<Text>Officier des Trir&#232;mes</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Trireme</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Trireme</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Trirreme:Trirremes</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CHINESE_UNIFICATION_BUILDING_EMPERORS_COUNCIL</Tag>
 		<English>Emperor's Council</English>
 		<French>

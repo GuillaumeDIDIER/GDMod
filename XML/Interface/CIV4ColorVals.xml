@@ -7,6 +7,13 @@
 <Civ4ColorVals xmlns="x-schema:CIV4InterfaceSchema.xml">
 	<ColorVals>
 		<ColorVal>
+			<Type>COLOR_PLAYER_DARK_GREEN_G</Type>
+			<fRed>0.00</fRed>
+			<fGreen>0.38</fGreen>
+			<fBlue>0.00</fBlue>
+			<fAlpha>1.00</fAlpha>
+		</ColorVal>
+		<ColorVal>
 			<Type>COLOR_CLEAR</Type>
 			<fRed>1.00</fRed>
 			<fGreen>1.00</fGreen>

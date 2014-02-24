@@ -7,7 +7,7 @@
 <Civ4Defines xmlns="x-schema:CIV4GlobalDefinesSchema.xml">
 	<Define>
 		<DefineName>CIV4_VERSION</DefineName>
-		<iDefineIntVal>319</iDefineIntVal>
+		<iDefineIntVal>317</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>MIN_VERSION</DefineName>
@@ -15,7 +15,7 @@
 	</Define>
 	<Define>
 		<DefineName>SAVE_VERSION</DefineName>
-		<iDefineIntVal>302</iDefineIntVal>
+		<iDefineIntVal>301</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>MAX_NUM_LANGUAGES</DefineName>
@@ -187,7 +187,7 @@
 	</Define>
 	<Define>
 		<DefineName>MAX_YIELD_STACK</DefineName>
-		<iDefineIntVal>5</iDefineIntVal>
+		<iDefineIntVal>10</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>MOVE_DENOMINATOR</DefineName>
@@ -315,7 +315,7 @@
 	</Define>
 	<Define>
 		<DefineName>MAX_NATIONAL_WONDERS_PER_CITY</DefineName>
-		<iDefineIntVal>2</iDefineIntVal>
+		<iDefineIntVal>4</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>MAX_NATIONAL_WONDERS_PER_CITY_FOR_OCC</DefineName>
@@ -343,7 +343,7 @@
 	</Define>
 	<Define>
 		<DefineName>FOOD_CONSUMPTION_PER_POPULATION</DefineName>
-		<iDefineIntVal>2</iDefineIntVal>
+		<iDefineIntVal>1</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>NEW_HURRY_MODIFIER</DefineName>
@@ -351,7 +351,7 @@
 	</Define>
 	<Define>
 		<DefineName>CONSCRIPT_MIN_CITY_POPULATION</DefineName>
-		<iDefineIntVal>5</iDefineIntVal>
+		<iDefineIntVal>4</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>CONSCRIPT_POPULATION_PER_COST</DefineName>
@@ -363,15 +363,15 @@
 	</Define>
 	<Define>
 		<DefineName>FRESH_WATER_HEALTH_CHANGE</DefineName>
-		<iDefineIntVal>2</iDefineIntVal>
+		<iDefineIntVal>3</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>POWER_HEALTH_CHANGE</DefineName>
-		<iDefineIntVal>-2</iDefineIntVal>
+		<iDefineIntVal>-1</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>DIRTY_POWER_HEALTH_CHANGE</DefineName>
-		<iDefineIntVal>-2</iDefineIntVal>
+		<iDefineIntVal>-1</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>INITIAL_CITY_MAINTENANCE</DefineName>
@@ -383,7 +383,7 @@
 	</Define>
 	<Define>
 		<DefineName>MAX_TRADE_ROUTES</DefineName>
-		<iDefineIntVal>8</iDefineIntVal>
+		<iDefineIntVal>10</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>MIN_TIMER_UNIT_DOUBLE_MOVES</DefineName>
@@ -467,27 +467,27 @@
 	</Define>
 	<Define>
 		<DefineName>GREAT_PEOPLE_THRESHOLD_INCREASE</DefineName>
-		<iDefineIntVal>50</iDefineIntVal>
+		<iDefineIntVal>25</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>GREAT_PEOPLE_THRESHOLD_INCREASE_TEAM</DefineName>
-		<iDefineIntVal>50</iDefineIntVal>
+		<iDefineIntVal>25</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>GREAT_PEOPLE_THRESHOLD</DefineName>
-		<iDefineIntVal>100</iDefineIntVal>
+		<iDefineIntVal>50</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>GREAT_GENERALS_THRESHOLD_INCREASE</DefineName>
-		<iDefineIntVal>50</iDefineIntVal>
+		<iDefineIntVal>25</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>GREAT_GENERALS_THRESHOLD_INCREASE_TEAM</DefineName>
-		<iDefineIntVal>50</iDefineIntVal>
+		<iDefineIntVal>25</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>GREAT_GENERALS_THRESHOLD</DefineName>
-		<iDefineIntVal>30</iDefineIntVal>
+		<iDefineIntVal>15</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>BASE_SPY_SABOTAGE_COST</DefineName>
@@ -567,11 +567,11 @@
 	</Define>
 	<Define>
 		<DefineName>ANIMAL_MAX_XP_VALUE</DefineName>
-		<iDefineIntVal>5</iDefineIntVal>
+		<iDefineIntVal>20</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>BARBARIAN_MAX_XP_VALUE</DefineName>
-		<iDefineIntVal>10</iDefineIntVal>
+		<iDefineIntVal>50</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>BASE_GOLDEN_AGE_UNITS</DefineName>
@@ -583,7 +583,7 @@
 	</Define>
 	<Define>
 		<DefineName>GOLDEN_AGE_LENGTH</DefineName>
-		<iDefineIntVal>8</iDefineIntVal>
+		<iDefineIntVal>10</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>GOLDEN_AGE_GREAT_PEOPLE_MODIFIER</DefineName>
@@ -607,7 +607,7 @@
 	</Define>
 	<Define>
 		<DefineName>CAPITAL_TRADE_MODIFIER</DefineName>
-		<iDefineIntVal>25</iDefineIntVal>
+		<iDefineIntVal>50</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>OVERSEAS_TRADE_MODIFIER</DefineName>
@@ -727,7 +727,7 @@
 	</Define>
 	<Define>
 		<DefineName>GLOBAL_WARMING_PROB</DefineName>
-		<iDefineIntVal>20</iDefineIntVal>
+		<iDefineIntVal>10</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>GLOBAL_WARMING_FOREST</DefineName>
@@ -775,7 +775,7 @@
 	</Define>
 	<Define>
 		<DefineName>BASE_OCCUPATION_TURNS</DefineName>
-		<iDefineIntVal>3</iDefineIntVal>
+		<iDefineIntVal>1</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>OCCUPATION_TURNS_POPULATION_PERCENT</DefineName>
@@ -979,7 +979,7 @@
 	</Define>
 	<Define>
 		<DefineName>MAX_EXPERIENCE_AFTER_UPGRADE</DefineName>
-		<iDefineIntVal>10</iDefineIntVal>
+		<iDefineIntVal>20</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>BUILDING_PRODUCTION_DECAY_TIME</DefineName>
@@ -1070,11 +1070,11 @@
 	</Define>
 	<Define>
 		<DefineName>INITIAL_STATE_RELIGION_HAPPINESS</DefineName>
-		<iDefineIntVal>1</iDefineIntVal>
+		<iDefineIntVal>2</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>INITIAL_NON_STATE_RELIGION_HAPPINESS</DefineName>
-		<iDefineIntVal>0</iDefineIntVal>
+		<iDefineIntVal>1</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>RELIGION_SPREAD_DISTANCE_DIVISOR</DefineName>
@@ -1098,7 +1098,7 @@
 	</Define>
 	<Define>
 		<DefineName>WE_LOVE_THE_KING_POPULATION_MIN_POPULATION</DefineName>
-		<iDefineIntVal>8</iDefineIntVal>
+		<iDefineIntVal>5</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>PLOT_SIZE</DefineName>
@@ -1399,7 +1399,7 @@
 	</Define>
 	<Define>
 		<DefineName>WARLORD_EXTRA_EXPERIENCE_PER_UNIT_PERCENT</DefineName>
-		<iDefineIntVal>0</iDefineIntVal>
+		<iDefineIntVal>100</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>COMBAT_EXPERIENCE_IN_BORDERS_PERCENT</DefineName>
@@ -1572,7 +1572,7 @@
 	</Define>
 	<Define>
 		<DefineName>ADVANCED_START_CITY_COST</DefineName>
-		<iDefineIntVal>67</iDefineIntVal>
+		<iDefineIntVal>50</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>ADVANCED_START_CITY_COST_INCREASE</DefineName>
@@ -1580,7 +1580,7 @@
 	</Define>
 	<Define>
 		<DefineName>ADVANCED_START_POPULATION_COST</DefineName>
-		<iDefineIntVal>150</iDefineIntVal>
+		<iDefineIntVal>100</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>ADVANCED_START_POPULATION_COST_INCREASE</DefineName>
@@ -1588,7 +1588,7 @@
 	</Define>
 	<Define>
 		<DefineName>ADVANCED_START_CULTURE_COST</DefineName>
-		<iDefineIntVal>25</iDefineIntVal>
+		<iDefineIntVal>10</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>ADVANCED_START_CULTURE_COST_INCREASE</DefineName>
@@ -1596,15 +1596,15 @@
 	</Define>
 	<Define>
 		<DefineName>ADVANCED_START_VISIBILITY_COST</DefineName>
-		<iDefineIntVal>2</iDefineIntVal>
+		<iDefineIntVal>1</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>ADVANCED_START_VISIBILITY_COST_INCREASE</DefineName>
-		<iDefineIntVal>3</iDefineIntVal>
+		<iDefineIntVal>2</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>ADVANCED_START_CITY_PLACEMENT_MAX_RANGE</DefineName>
-		<iDefineIntVal>6</iDefineIntVal>
+		<iDefineIntVal>10</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>NEW_CITY_BUILDING_VALUE_MODIFIER</DefineName>
@@ -1620,7 +1620,7 @@
 	</Define>
 	<Define>
 		<DefineName>FIRST_EVENT_DELAY_TURNS</DefineName>
-		<iDefineIntVal>20</iDefineIntVal>
+		<iDefineIntVal>5</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>CIVILOPEDIA_SHOW_ACTIVE_CIVS_ONLY</DefineName>
@@ -1640,7 +1640,7 @@
 	</Define>
 	<Define>
 		<DefineName>CITY_AIR_UNIT_CAPACITY</DefineName>
-		<iDefineIntVal>4</iDefineIntVal>
+		<iDefineIntVal>10</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>COLONY_NUM_FREE_DEFENDERS</DefineName>
@@ -1657,13 +1657,5 @@
 	<Define>
 		<DefineName>USE_SPIES_NO_ENTER_BORDERS</DefineName>
 		<iDefineIntVal>0</iDefineIntVal>
-	</Define>
-	<Define>
-		<DefineName>NO_ESPIONAGE_CULTURE_LEVEL_MODIFIER</DefineName>
-		<iDefineIntVal>100</iDefineIntVal>
-	</Define>
-	<Define>
-		<DefineName>FORCE_UNOWNED_CITY_TIMER</DefineName>
-		<iDefineIntVal>2</iDefineIntVal>
 	</Define>
 </Civ4Defines>

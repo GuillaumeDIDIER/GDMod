@@ -9825,6 +9825,10 @@
 					<UnitCombat>UNITCOMBAT_MOUNTED</UnitCombat>
 					<UnitPromotion>PROMOTION_FLANKING1</UnitPromotion>
 				</UnitCombatPromotion>
+				<UnitCombatPromotion>
+					<UnitCombat>UNITCOMBAT_MOUNTED_OFFICER</UnitCombat>
+					<UnitPromotion>PROMOTION_FLANKING1</UnitPromotion>
+				</UnitCombatPromotion>
 			</UnitCombatPromotions>
 			<UnitClassPromotions/>
 			<BuildingClass>NONE</BuildingClass>
@@ -16243,6 +16247,10 @@
 					<UnitCombat>UNITCOMBAT_MOUNTED</UnitCombat>
 					<UnitPromotion>PROMOTION_SENTRY</UnitPromotion>
 				</UnitCombatPromotion>
+				<UnitCombatPromotion>
+					<UnitCombat>UNITCOMBAT_MOUNTED_OFFICER</UnitCombat>
+					<UnitPromotion>PROMOTION_SENTRY</UnitPromotion>
+				</UnitCombatPromotion>
 			</UnitCombatPromotions>
 			<UnitClassPromotions/>
 			<BuildingClass>NONE</BuildingClass>
@@ -16507,6 +16515,10 @@
 					<UnitCombat>UNITCOMBAT_NAVAL</UnitCombat>
 					<UnitPromotion>PROMOTION_COMBAT1</UnitPromotion>
 				</UnitCombatPromotion>
+				<UnitCombatPromotion>
+					<UnitCombat>UNITCOMBAT_NAVAL_OFFICER</UnitCombat>
+					<UnitPromotion>PROMOTION_COMBAT1</UnitPromotion>
+				</UnitCombatPromotion>
 			</UnitCombatPromotions>
 			<UnitClassPromotions/>
 			<BuildingClass>NONE</BuildingClass>
@@ -16688,6 +16700,10 @@
 			<UnitCombatPromotions>
 				<UnitCombatPromotion>
 					<UnitCombat>UNITCOMBAT_NAVAL</UnitCombat>
+					<UnitPromotion>PROMOTION_NAVIGATION1</UnitPromotion>
+				</UnitCombatPromotion>
+				<UnitCombatPromotion>
+					<UnitCombat>UNITCOMBAT_NAVAL_OFFICER</UnitCombat>
 					<UnitPromotion>PROMOTION_NAVIGATION1</UnitPromotion>
 				</UnitCombatPromotion>
 			</UnitCombatPromotions>
@@ -21366,6 +21382,10 @@
 			<UnitCombatPromotions>
 				<UnitCombatPromotion>
 					<UnitCombat>UNITCOMBAT_GUN</UnitCombat>
+					<UnitPromotion>PROMOTION_MARCH</UnitPromotion>
+				</UnitCombatPromotion>
+				<UnitCombatPromotion>
+					<UnitCombat>UNITCOMBAT_GUN_OFFICER</UnitCombat>
 					<UnitPromotion>PROMOTION_MARCH</UnitPromotion>
 				</UnitCombatPromotion>
 			</UnitCombatPromotions>

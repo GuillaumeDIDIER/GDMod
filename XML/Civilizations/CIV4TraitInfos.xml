@@ -62,6 +62,10 @@
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
 		</TraitInfo>
 		<TraitInfo>
@@ -262,6 +266,10 @@
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>

@@ -1628,6 +1628,14 @@
 		<Spanish>Los [COLOR_BUILDING_TEXT]Cuarteles[COLOR_REVERT] dan puntos de experiencia a las tropas que se construyan en las ciudades donde se encuentren. Conviene construirlos en todas las ciudades que vayan a producir unidades militares.</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_BUILDING_OFFICER_SCHOOL_STRATEGY</Tag>
+		<English>[COLOR_BUILDING_TEXT]Officer schools[COLOR_REVERT] grant experience points to troops built in their cities. Build them in all cities that will produce military units. They also produce wealth, research, a little culture and some spying points.</English>
+		<French>L' [COLOR_BUILDING_TEXT]&#233;cole d' officier[COLOR_REVERT] donne des points d'exp&#233;rience aux unit&#233;s entra&#238;n&#233;es dans la ville. Construisez-la dans toutes les villes qui produisent des unit&#233;s militaires. Elle produit aussi de la richesse, de la recherche, un peu de culture et des points d'espionnage </French>
+		<German>[COLOR_BUILDING_TEXT]Kasernen[COLOR_REVERT] erh&#246;hen die Erfahrung aller Truppen der jeweiligen Stadt. Bauen Sie Kasernen daher in allen St&#228;dten, in denen Sie Milit&#228;reinheiten ausbilden.</German>
+		<Italian>La [COLOR_BUILDING_TEXT]caserma[COLOR_REVERT] concede punti esperienza extra alle unit&#224; sviluppate nella citt&#224;. Costruiscila in tutte le citt&#224; adibite allo sviluppo delle truppe militari.</Italian>
+		<Spanish>Los [COLOR_BUILDING_TEXT]Cuarteles[COLOR_REVERT] dan puntos de experiencia a las tropas que se construyan en las ciudades donde se encuentren. Conviene construirlos en todas las ciudades que vayan a producir unidades militares.</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_BUILDING_BUNKER_STRATEGY</Tag>
 		<English>[COLOR_BUILDING_TEXT]Bunkers[COLOR_REVERT] reduce damage from air attacks. Build them when (or before!) your enemies have strong air forces.</English>
 		<French>Les [COLOR_BUILDING_TEXT]bunkers[COLOR_REVERT] r&#233;duisent les d&#233;g&#226;ts inflig&#233;s par les attaques a&#233;riennes. Construisez-les d&#232;s que l'ennemi dispose d'une puissante force a&#233;rienne (ou avant !).</French>

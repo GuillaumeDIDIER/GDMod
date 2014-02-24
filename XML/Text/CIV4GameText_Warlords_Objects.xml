@@ -30,6 +30,30 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UNIT_TREBUCHET_OFFICER</Tag>
+		<English>Trebuchet Officer</English>
+		<French>
+			<Text>Officier Tr&#233;buchet</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Tribok</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Trabocco:Trabocchi</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Trabuquete:Trabuquetes</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_OTTOMAN_JANISSARY</Tag>
 		<English>Janissary</English>
 		<French>

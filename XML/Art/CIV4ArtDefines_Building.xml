@@ -87,6 +87,26 @@
 			<Button>,Art/Interface/Buttons/Buildings/Barracks.dds,Art/Interface/Buttons/Buildings_Atlas.dds,6,1</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_NSOO</Type>
+			<LSystem>LSYSTEM_2x2</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>1.27</fScale>
+			<fInterfaceScale>0.52</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Barracks/Barracks.nif</NIF>
+			<KFM/>
+			<Button>,Art/Interface/Buttons/NSOO.dds</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_RSOC</Type>
+			<LSystem>LSYSTEM_2x2</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>1.27</fScale>
+			<fInterfaceScale>0.52</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Barracks/Barracks.nif</NIF>
+			<KFM/>
+			<Button>,Art/Interface/Buttons/RSOC.dds</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ZULU_IKHANDA</Type>
 			<LSystem>LSYSTEM_2x2</LSystem>
 			<bAnimated>0</bAnimated>

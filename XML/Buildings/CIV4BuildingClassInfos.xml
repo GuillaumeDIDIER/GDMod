@@ -1506,5 +1506,29 @@
 			<DefaultBuilding>BUILDING_APOSTOLIC_PALACE</DefaultBuilding>
 			<VictoryThresholds/>
 		</BuildingClassInfo>
+<!--		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_NATIONAL_SCHOOL_OF_OFFICER</Type>
+			<Description>TXT_KEY_BUILDING_NSOO</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_NATIONAL_SCHOOL_OF_OFFICER</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_ROYAL_SCHOOL_OF_CAVALLA</Type>
+			<Description>TXT_KEY_BUILDING_RSOC</Description>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_ROYAL_SCHOOL_OF_CAVALLA</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo> -->
 	</BuildingClassInfos>
 </Civ4BuildingClassInfos>

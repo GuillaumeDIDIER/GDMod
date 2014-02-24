@@ -2958,6 +2958,30 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UNIT_FRENCH_MUSKETEER_OFFICER</Tag>
+		<English>Musketeer Officer</English>
+		<French>
+			<Text>Officier Mousquetaire</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Franz&#246;sischer Musketier</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Moschettiere:Moschettieri</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Mosquetero:Mosqueteros</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_RIFLEMAN</Tag>
 		<English>Rifleman</English>
 		<French>
@@ -2982,10 +3006,58 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UNIT_RIFLEMAN_OFFICER</Tag>
+		<English>Rifleman Officer</English>
+		<French>
+			<Text>Officier Fusilier</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Sch&#252;tze</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Fuciliere:Fucilieri</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Fusilero:Fusileros</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_GRENADIER</Tag>
 		<English>Grenadier</English>
 		<French>
 			<Text>Grenadier</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Grenadier</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Granatiere:Granatieri</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Granadero:Granaderos</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GRENADIER_OFFICER</Tag>
+		<English>Grenadier Officer</English>
+		<French>
+			<Text>Officier Grenadier</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -3054,11 +3126,59 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UNIT_INFANTRY_OFFICER</Tag>
+		<English>Infantry Officer</English>
+		<French>
+			<Text>Officier d'Infanterie</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Infanterie</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Fanteria:Fanterie</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Infanter&#237;a:Infanter&#237;as</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_SAM_INFANTRY</Tag>
 		<English>SAM Infantry</English>
 		<French>
 			<Text>Infanterie SAM</Text>
 			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>SAM-Infanterie</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Fanteria con missili terra-aria:Fanterie con missili terra-aria</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Infanter&#237;a con misiles tierra-aire:Infanter&#237;as con misiles tierra-aire</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SAM_INFANTRY_OFFICER</Tag>
+		<English>SAM Infantry Officer</English>
+		<French>
+			<Text>Officier d'Infanterie SAM</Text>
+			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
@@ -3294,6 +3414,30 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UNIT_CHARIOT_OFFICER</Tag>
+		<English>Chariot officer</English>
+		<French>
+			<Text>Officier de char</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Streitwagen</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Biga:Bighe</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Carro:Carros</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_EGYPT_WARCHARIOT</Tag>
 		<English>War Chariot</English>
 		<French>
@@ -3366,6 +3510,30 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UNIT_HORSE_ARCHER_OFFICER</Tag>
+		<English>Horse Archer Officer</English>
+		<French>
+			<Text>Officer Archer mont&#233;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Berittener Bogensch&#252;tze</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Arciere a cavallo:Arcieri a cavallo</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Arquero a caballo:Arqueros a caballo</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_MONGOL_KESHIK</Tag>
 		<English>Keshik</English>
 		<French>
@@ -3394,6 +3562,30 @@
 		<English>Knight</English>
 		<French>
 			<Text>Chevalier</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Ritter</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Cavaliere:Cavalieri</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Caballero:Caballeros</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KNIGHT_OFFICER</Tag>
+		<English>Knight Officer</English>
+		<French>
+			<Text>Oficier Chevalier</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -3486,6 +3678,30 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UNIT_CAVALRY_OFFICER</Tag>
+		<English>Cavalry Officer</English>
+		<French>
+			<Text>Officer de Cavalerie</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Kavallerie</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Cavalleria</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Caballer&#237;a:Caballer&#237;as</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_RUSSIA_COSSACK</Tag>
 		<English>Cossack</English>
 		<French>
@@ -3534,10 +3750,58 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UNIT_WAR_ELEPHANT_OFFICER</Tag>
+		<English>War Elephant Officer</English>
+		<French>
+			<Text>Officier El&#233;phant de guerre</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Kriegselefant</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Elefante da guerra:Elefanti da guerra</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Elefante de guerra:Elefantes de guerra</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_TANK</Tag>
 		<English>Tank</English>
 		<French>
 			<Text>Char</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Panzer</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Carro armato:Carri armati</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Tanque:Tanques</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TANK_OFFICER</Tag>
+		<English>Tank Officer</English>
+		<French>
+			<Text>Officier de blind&#232;s</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -3606,6 +3870,30 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UNIT_MODERN_ARMOR_E_O</Tag>
+		<English>Modern Armor Elite Officer</English>
+		<French>
+			<Text>Officier de Blind&#233; moderne d'&#233;lite</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Kampfpanzer</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Unit&#224; corazzata:Unit&#224; corazzate</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Blindado moderno:Blindados modernos</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_GUNSHIP</Tag>
 		<English>Gunship</English>
 		<French>
@@ -3654,6 +3942,30 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UNIT_CATAPULT_OFFICER</Tag>
+		<English>Catapult Officer</English>
+		<French>
+			<Text>Officier de Catapulte</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Katapult</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Catapulta:Catapulte</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Catapulta:Catapultas</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_CANNON</Tag>
 		<English>Cannon</English>
 		<French>
@@ -3674,6 +3986,54 @@
 		<Spanish>
 			<Text>Ca&#241;&#243;n:Ca&#241;ones</Text>
 			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CANNON_OFFICER</Tag>
+		<English>Cannon Officer</English>
+		<French>
+			<Text>Canon (Officier)</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Kanone</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Cannone:Cannoni</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Ca&#241;&#243;n:Ca&#241;ones</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MACHINE_GUN_OFFICER</Tag>
+		<English>Machine Gun Officer</English>
+		<French>
+			<Text>Officier de Mitrailleuse</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Maschinengewehr</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Mitragliatore:Mitragliatori</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Ametralladora:Ametralladoras</Text>
+			<Gender>Female</Gender>
 			<Plural>0:1</Plural>
 		</Spanish>
 	</TEXT>
@@ -3707,6 +4067,30 @@
 		<French>
 			<Text>Artillerie</Text>
 			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Artillerie</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Artiglieria:Artiglierie</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Artiller&#237;a:Artiller&#237;as</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ARTILLERY_OFFICER</Tag>
+		<English>Artillery Officer</English>
+		<French>
+			<Text>Officier d'Artillerie</Text>
+			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
@@ -3774,6 +4158,30 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UNIT_GALLEY_OFFICER</Tag>
+		<English>Galley Officer</English>
+		<French>
+			<Text>Officier des Gal&#232;res</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Triere</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Galea:Galee</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Galera:Galeras</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_CARAVEL</Tag>
 		<English>Caravel</English>
 		<French>
@@ -3798,10 +4206,58 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UNIT_CARAVEL_OFFICER</Tag>
+		<English>Caravel Officer</English>
+		<French>
+			<Text>Officier de Caravelle</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Karavelle</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Caravella:Caravelle</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Carabela:Carabelas</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_GALLEON</Tag>
 		<English>Galleon</English>
 		<French>
 			<Text>Galion</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Galeone</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Galeone:Galeoni</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Gale&#243;n:Galeones</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GALLEON_OFFICER</Tag>
+		<English>Galleon Officer</English>
+		<French>
+			<Text>Officier de Galion</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -3846,10 +4302,58 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UNIT_FRIGATE_OFFICER</Tag>
+		<English>Frigate Officer</English>
+		<French>
+			<Text>Officier de Fr&#233;gate</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Fregatte</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Fregata:Fregate</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Fragata:Fragatas</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_IRONCLAD</Tag>
 		<English>Ironclad</English>
 		<French>
 			<Text>Cuirass&#233; &#224; vapeur</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Panzerschiff</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Corazzata:Corazzate</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Buque blindado:Buques blindados</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_IRONCLAD_OFFICER</Tag>
+		<English>Ironclad Officer</English>
+		<French>
+			<Text>Officier de Cuirass&#233; &#224; vapeur</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -3894,10 +4398,58 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UNIT_TRANSPORT_OFFICER</Tag>
+		<English>Transport Officer</English>
+		<French>
+			<Text>Officier de Transport</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Transportschiff</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Trasporto:Trasporti</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Transporte:Transportes</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_DESTROYER</Tag>
 		<English>Destroyer</English>
 		<French>
 			<Text>Destroyer</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Zerst&#246;rer</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Cacciatorpediniera:Cacciatorpediniere</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Destructor:Destructores</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DESTROYER_OFFICER</Tag>
+		<English>Destroyer Officer</English>
+		<French>
+			<Text>Officier de Destroyer</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -3942,6 +4494,30 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UNIT_BATTLESHIP_OFFICER</Tag>
+		<English>Battleship Officer</English>
+		<French>
+			<Text>Officier de Cuirass&#233;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Kriegsschiff</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Nave da guerra:Navi da guerra</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Acorazado:Acorazados</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBMARINE</Tag>
 		<English>Submarine</English>
 		<French>
@@ -3966,10 +4542,58 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UNIT_SUBMARINE_OFFICER</Tag>
+		<English>Submarine Officer</English>
+		<French>
+			<Text>Officier de Sous-marin</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>U-Boot</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Sottomarino:Sottomarini</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Submarino:Submarinos</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_CARRIER</Tag>
 		<English>Carrier</English>
 		<French>
 			<Text>Porte-avions</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Flugzeugtr&#228;ger</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Portaerei:Portaerei</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Portaaviones:Portaaviones</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CARRIER_OFFICER</Tag>
+		<English>Carrier Officer</English>
+		<French>
+			<Text>Officier de Porte-avions</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>

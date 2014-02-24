@@ -67,6 +67,11 @@
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
@@ -76,7 +81,15 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
@@ -88,7 +101,15 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_AIR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -167,6 +188,10 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
@@ -175,7 +200,15 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
@@ -187,7 +220,15 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_AIR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -286,7 +327,27 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_AIR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -385,7 +446,27 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_AIR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -484,7 +565,27 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_AIR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -494,6 +595,777 @@
 			<bCtrlDown>0</bCtrlDown>
 			<iHotKeyPriority>0</iHotKeyPriority>
 			<Button>,Art/Interface/Buttons/Promotions/Combat5.dds,Art/Interface/Buttons/Promotions_Atlas.dds,4,6</Button>
+		</PromotionInfo>
+		<PromotionInfo>
+			<Type>PROMOTION_LEADER</Type>
+			<Description>TXT_KEY_PROMOTION_GREAT_GENERAL</Description>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
+			<PromotionPrereq>NONE</PromotionPrereq>
+			<PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
+			<bLeader>1</bLeader>
+			<bBlitz>0</bBlitz>
+			<bAmphib>0</bAmphib>
+			<bRiver>0</bRiver>
+			<bEnemyRoute>0</bEnemyRoute>
+			<bAlwaysHeal>0</bAlwaysHeal>
+			<bHillsDoubleMove>0</bHillsDoubleMove>
+			<bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+			<iVisibilityChange>0</iVisibilityChange>
+			<iMovesChange>0</iMovesChange>
+			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
+			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
+			<iCollateralDamageChange>0</iCollateralDamageChange>
+			<iBombardRateChange>0</iBombardRateChange>
+			<iFirstStrikesChange>0</iFirstStrikesChange>
+			<iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+			<iEnemyHealChange>0</iEnemyHealChange>
+			<iNeutralHealChange>0</iNeutralHealChange>
+			<iFriendlyHealChange>0</iFriendlyHealChange>
+			<iSameTileHealChange>0</iSameTileHealChange>
+			<iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+			<iCombatPercent>0</iCombatPercent>
+			<iCityAttack>0</iCityAttack>
+			<iCityDefense>0</iCityDefense>
+			<iHillsAttack>0</iHillsAttack>
+			<iHillsDefense>0</iHillsDefense>
+			<iKamikazePercent>0</iKamikazePercent>
+			<iRevoltProtection>0</iRevoltProtection>
+			<iCollateralDamageProtection>0</iCollateralDamageProtection>
+			<iPillageChange>0</iPillageChange>
+			<iUpgradeDiscount>100</iUpgradeDiscount>
+			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
+			<TerrainDefenses/>
+			<FeatureAttacks/>
+			<FeatureDefenses/>
+			<UnitCombatMods/>
+			<DomainMods/>
+			<TerrainDoubleMoves/>
+			<FeatureDoubleMoves/>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
+			<HotKey/>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<Button>,Art/Interface/Buttons/Promotions/Combat5.dds,Art/Interface/Buttons/Warlords_Atlas_1.dds,5,10</Button>
+		</PromotionInfo>
+		<PromotionInfo>
+			<Type>PROMOTION_CAPTAIN</Type>
+			<Description>TXT_KEY_PROMOTION_CAPTAIN</Description>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
+			<PromotionPrereq>NONE</PromotionPrereq>
+			<PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
+			<bLeader>0</bLeader>
+			<bBlitz>0</bBlitz>
+			<bAmphib>0</bAmphib>
+			<bRiver>0</bRiver>
+			<bEnemyRoute>0</bEnemyRoute>
+			<bAlwaysHeal>0</bAlwaysHeal>
+			<bHillsDoubleMove>0</bHillsDoubleMove>
+			<bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+			<iVisibilityChange>0</iVisibilityChange>
+			<iMovesChange>0</iMovesChange>
+			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
+			<iWithdrawalChange>5</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
+			<iCollateralDamageChange>0</iCollateralDamageChange>
+			<iBombardRateChange>0</iBombardRateChange>
+			<iFirstStrikesChange>0</iFirstStrikesChange>
+			<iChanceFirstStrikesChange>1</iChanceFirstStrikesChange>
+			<iEnemyHealChange>0</iEnemyHealChange>
+			<iNeutralHealChange>0</iNeutralHealChange>
+			<iFriendlyHealChange>0</iFriendlyHealChange>
+			<iSameTileHealChange>0</iSameTileHealChange>
+			<iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+			<iCombatPercent>10</iCombatPercent>
+			<iCityAttack>10</iCityAttack>
+			<iCityDefense>10</iCityDefense>
+			<iHillsAttack>0</iHillsAttack>
+			<iHillsDefense>0</iHillsDefense>
+			<iKamikazePercent>0</iKamikazePercent>
+			<iRevoltProtection>0</iRevoltProtection>
+			<iCollateralDamageProtection>10</iCollateralDamageProtection>
+			<iPillageChange>0</iPillageChange>
+			<iUpgradeDiscount>0</iUpgradeDiscount>
+			<iExperiencePercent>50</iExperiencePercent>
+			<TerrainAttacks/>
+			<TerrainDefenses/>
+			<FeatureAttacks/>
+			<FeatureDefenses/>
+			<UnitCombatMods/>
+			<DomainMods/>
+			<TerrainDoubleMoves/>
+			<FeatureDoubleMoves/>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
+			<HotKey/>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<Button>,Art/Interface/Buttons/capitaine.dds</Button>
+		</PromotionInfo>
+		<PromotionInfo>
+			<Type>PROMOTION_LIEUTENANT</Type>
+			<Description>TXT_KEY_PROMOTION_LIEUTENANT</Description>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
+			<PromotionPrereq>PROMOTION_COMBAT5</PromotionPrereq>
+			<PromotionPrereqOr1>PROMOTION_LEADER</PromotionPrereqOr1>
+			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
+			<bLeader>0</bLeader>
+			<bBlitz>0</bBlitz>
+			<bAmphib>0</bAmphib>
+			<bRiver>0</bRiver>
+			<bEnemyRoute>0</bEnemyRoute>
+			<bAlwaysHeal>0</bAlwaysHeal>
+			<bHillsDoubleMove>0</bHillsDoubleMove>
+			<bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+			<iVisibilityChange>0</iVisibilityChange>
+			<iMovesChange>0</iMovesChange>
+			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
+			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
+			<iCollateralDamageChange>0</iCollateralDamageChange>
+			<iBombardRateChange>0</iBombardRateChange>
+			<iFirstStrikesChange>0</iFirstStrikesChange>
+			<iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+			<iEnemyHealChange>0</iEnemyHealChange>
+			<iNeutralHealChange>0</iNeutralHealChange>
+			<iFriendlyHealChange>0</iFriendlyHealChange>
+			<iSameTileHealChange>0</iSameTileHealChange>
+			<iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+			<iCombatPercent>5</iCombatPercent>
+			<iCityAttack>0</iCityAttack>
+			<iCityDefense>10</iCityDefense>
+			<iHillsAttack>0</iHillsAttack>
+			<iHillsDefense>0</iHillsDefense>
+			<iKamikazePercent>0</iKamikazePercent>
+			<iRevoltProtection>0</iRevoltProtection>
+			<iCollateralDamageProtection>0</iCollateralDamageProtection>
+			<iPillageChange>0</iPillageChange>
+			<iUpgradeDiscount>0</iUpgradeDiscount>
+			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
+			<TerrainDefenses/>
+			<FeatureAttacks/>
+			<FeatureDefenses/>
+			<UnitCombatMods/>
+			<DomainMods/>
+			<TerrainDoubleMoves/>
+			<FeatureDoubleMoves/>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
+			<HotKey/>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<Button>,Art/Interface/Buttons/lieutenant.dds</Button>
+		</PromotionInfo>
+		<PromotionInfo>
+			<Type>PROMOTION_CAPTAIN_NO</Type>
+			<Description>TXT_KEY_PROMOTION_CAPTAIN</Description>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
+			<PromotionPrereq>PROMOTION_LIEUTENANT</PromotionPrereq>
+			<PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
+			<bLeader>0</bLeader>
+			<bBlitz>0</bBlitz>
+			<bAmphib>0</bAmphib>
+			<bRiver>0</bRiver>
+			<bEnemyRoute>0</bEnemyRoute>
+			<bAlwaysHeal>0</bAlwaysHeal>
+			<bHillsDoubleMove>0</bHillsDoubleMove>
+			<bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+			<iVisibilityChange>0</iVisibilityChange>
+			<iMovesChange>0</iMovesChange>
+			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
+			<iWithdrawalChange>5</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
+			<iCollateralDamageChange>0</iCollateralDamageChange>
+			<iBombardRateChange>0</iBombardRateChange>
+			<iFirstStrikesChange>0</iFirstStrikesChange>
+			<iChanceFirstStrikesChange>1</iChanceFirstStrikesChange>
+			<iEnemyHealChange>0</iEnemyHealChange>
+			<iNeutralHealChange>0</iNeutralHealChange>
+			<iFriendlyHealChange>0</iFriendlyHealChange>
+			<iSameTileHealChange>0</iSameTileHealChange>
+			<iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+			<iCombatPercent>10</iCombatPercent>
+			<iCityAttack>10</iCityAttack>
+			<iCityDefense>10</iCityDefense>
+			<iHillsAttack>0</iHillsAttack>
+			<iHillsDefense>0</iHillsDefense>
+			<iKamikazePercent>0</iKamikazePercent>
+			<iRevoltProtection>0</iRevoltProtection>
+			<iCollateralDamageProtection>10</iCollateralDamageProtection>
+			<iPillageChange>0</iPillageChange>
+			<iUpgradeDiscount>0</iUpgradeDiscount>
+			<iExperiencePercent>50</iExperiencePercent>
+			<TerrainAttacks/>
+			<TerrainDefenses/>
+			<FeatureAttacks/>
+			<FeatureDefenses/>
+			<UnitCombatMods/>
+			<DomainMods/>
+			<TerrainDoubleMoves/>
+			<FeatureDoubleMoves/>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
+			<HotKey/>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<Button>,Art/Interface/Buttons/capitaine.dds</Button>
+		</PromotionInfo>
+		<PromotionInfo>
+			<Type>PROMOTION_COMMANDER</Type>
+			<Description>TXT_KEY_PROMOTION_COMMANDER</Description>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
+			<PromotionPrereq>NONE</PromotionPrereq>
+			<PromotionPrereqOr1>PROMOTION_CAPTAIN_NO</PromotionPrereqOr1>
+			<PromotionPrereqOr2>PROMOTION_CAPTAIN</PromotionPrereqOr2>
+			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
+			<bLeader>0</bLeader>
+			<bBlitz>0</bBlitz>
+			<bAmphib>0</bAmphib>
+			<bRiver>0</bRiver>
+			<bEnemyRoute>0</bEnemyRoute>
+			<bAlwaysHeal>0</bAlwaysHeal>
+			<bHillsDoubleMove>0</bHillsDoubleMove>
+			<bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+			<iVisibilityChange>0</iVisibilityChange>
+			<iMovesChange>0</iMovesChange>
+			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
+			<iWithdrawalChange>10</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
+			<iCollateralDamageChange>0</iCollateralDamageChange>
+			<iBombardRateChange>0</iBombardRateChange>
+			<iFirstStrikesChange>1</iFirstStrikesChange>
+			<iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+			<iEnemyHealChange>0</iEnemyHealChange>
+			<iNeutralHealChange>0</iNeutralHealChange>
+			<iFriendlyHealChange>0</iFriendlyHealChange>
+			<iSameTileHealChange>0</iSameTileHealChange>
+			<iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+			<iCombatPercent>20</iCombatPercent>
+			<iCityAttack>15</iCityAttack>
+			<iCityDefense>15</iCityDefense>
+			<iHillsAttack>0</iHillsAttack>
+			<iHillsDefense>0</iHillsDefense>
+			<iKamikazePercent>0</iKamikazePercent>
+			<iRevoltProtection>0</iRevoltProtection>
+			<iCollateralDamageProtection>10</iCollateralDamageProtection>
+			<iPillageChange>0</iPillageChange>
+			<iUpgradeDiscount>0</iUpgradeDiscount>
+			<iExperiencePercent>100</iExperiencePercent>
+			<TerrainAttacks/>
+			<TerrainDefenses/>
+			<FeatureAttacks/>
+			<FeatureDefenses/>
+			<UnitCombatMods/>
+			<DomainMods/>
+			<TerrainDoubleMoves/>
+			<FeatureDoubleMoves/>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
+			<HotKey/>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<Button>,Art/Interface/Buttons/commandant.dds</Button>
+		</PromotionInfo>
+		<PromotionInfo>
+			<Type>PROMOTION_COLONEL</Type>
+			<Description>TXT_KEY_PROMOTION_COLONEL</Description>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
+			<PromotionPrereq>PROMOTION_COMMANDER</PromotionPrereq>
+			<PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
+			<bLeader>0</bLeader>
+			<bBlitz>0</bBlitz>
+			<bAmphib>0</bAmphib>
+			<bRiver>0</bRiver>
+			<bEnemyRoute>0</bEnemyRoute>
+			<bAlwaysHeal>0</bAlwaysHeal>
+			<bHillsDoubleMove>0</bHillsDoubleMove>
+			<bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+			<iVisibilityChange>0</iVisibilityChange>
+			<iMovesChange>0</iMovesChange>
+			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
+			<iWithdrawalChange>15</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
+			<iCollateralDamageChange>0</iCollateralDamageChange>
+			<iBombardRateChange>0</iBombardRateChange>
+			<iFirstStrikesChange>0</iFirstStrikesChange>
+			<iChanceFirstStrikesChange>2</iChanceFirstStrikesChange>
+			<iEnemyHealChange>0</iEnemyHealChange>
+			<iNeutralHealChange>0</iNeutralHealChange>
+			<iFriendlyHealChange>0</iFriendlyHealChange>
+			<iSameTileHealChange>0</iSameTileHealChange>
+			<iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+			<iCombatPercent>20</iCombatPercent>
+			<iCityAttack>20</iCityAttack>
+			<iCityDefense>20</iCityDefense>
+			<iHillsAttack>0</iHillsAttack>
+			<iHillsDefense>0</iHillsDefense>
+			<iKamikazePercent>0</iKamikazePercent>
+			<iRevoltProtection>0</iRevoltProtection>
+			<iCollateralDamageProtection>10</iCollateralDamageProtection>
+			<iPillageChange>0</iPillageChange>
+			<iUpgradeDiscount>0</iUpgradeDiscount>
+			<iExperiencePercent>100</iExperiencePercent>
+			<TerrainAttacks/>
+			<TerrainDefenses/>
+			<FeatureAttacks/>
+			<FeatureDefenses/>
+			<UnitCombatMods/>
+			<DomainMods/>
+			<TerrainDoubleMoves/>
+			<FeatureDoubleMoves/>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
+			<HotKey/>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<Button>,Art/Interface/Buttons/colonel.dds</Button>
+		</PromotionInfo>
+		<PromotionInfo>
+			<Type>PROMOTION_GENERAL</Type>
+			<Description>TXT_KEY_PROMOTION_GENERAL</Description>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
+			<PromotionPrereq>PROMOTION_COLONEL</PromotionPrereq>
+			<PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+			<TechPrereq>NONE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
+			<bLeader>0</bLeader>
+			<bBlitz>0</bBlitz>
+			<bAmphib>0</bAmphib>
+			<bRiver>0</bRiver>
+			<bEnemyRoute>0</bEnemyRoute>
+			<bAlwaysHeal>0</bAlwaysHeal>
+			<bHillsDoubleMove>0</bHillsDoubleMove>
+			<bImmuneToFirstStrikes>1</bImmuneToFirstStrikes>
+			<iVisibilityChange>0</iVisibilityChange>
+			<iMovesChange>0</iMovesChange>
+			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
+			<iWithdrawalChange>20</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
+			<iCollateralDamageChange>0</iCollateralDamageChange>
+			<iBombardRateChange>0</iBombardRateChange>
+			<iFirstStrikesChange>2</iFirstStrikesChange>
+			<iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+			<iEnemyHealChange>0</iEnemyHealChange>
+			<iNeutralHealChange>0</iNeutralHealChange>
+			<iFriendlyHealChange>0</iFriendlyHealChange>
+			<iSameTileHealChange>0</iSameTileHealChange>
+			<iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+			<iCombatPercent>25</iCombatPercent>
+			<iCityAttack>25</iCityAttack>
+			<iCityDefense>25</iCityDefense>
+			<iHillsAttack>0</iHillsAttack>
+			<iHillsDefense>0</iHillsDefense>
+			<iKamikazePercent>0</iKamikazePercent>
+			<iRevoltProtection>0</iRevoltProtection>
+			<iCollateralDamageProtection>10</iCollateralDamageProtection>
+			<iPillageChange>0</iPillageChange>
+			<iUpgradeDiscount>0</iUpgradeDiscount>
+			<iExperiencePercent>150</iExperiencePercent>
+			<TerrainAttacks/>
+			<TerrainDefenses/>
+			<FeatureAttacks/>
+			<FeatureDefenses/>
+			<UnitCombatMods/>
+			<DomainMods/>
+			<TerrainDoubleMoves/>
+			<FeatureDoubleMoves/>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
+			<HotKey/>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<Button>,Art/Interface/Buttons/general.dds</Button>
 		</PromotionInfo>
 		<PromotionInfo>
 			<Type>PROMOTION_COVER</Type>
@@ -565,6 +1437,10 @@
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -644,11 +1520,19 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -729,6 +1613,18 @@
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
@@ -823,6 +1719,14 @@
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -905,6 +1809,14 @@
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -995,6 +1907,18 @@
 					<UnitCombatType>UNITCOMBAT_AIR</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -1071,11 +1995,19 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -1165,6 +2097,18 @@
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -1172,172 +2116,6 @@
 			<bCtrlDown>0</bCtrlDown>
 			<iHotKeyPriority>0</iHotKeyPriority>
 			<Button>,Art/Interface/Buttons/Promotions/March.dds,Art/Interface/Buttons/Promotions_Atlas.dds,2,4</Button>
-		</PromotionInfo>
-		<PromotionInfo>
-			<Type>PROMOTION_BLITZ</Type>
-			<Description>TXT_KEY_PROMOTION_BLITZ</Description>
-			<Sound>AS2D_IF_LEVELUP</Sound>
-			<LayerAnimationPath>NONE</LayerAnimationPath>
-			<PromotionPrereq>NONE</PromotionPrereq>
-			<PromotionPrereqOr1>PROMOTION_COMBAT3</PromotionPrereqOr1>
-			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-			<TechPrereq>TECH_MILITARY_SCIENCE</TechPrereq>
-			<StateReligionPrereq>NONE</StateReligionPrereq>
-			<bLeader>0</bLeader>
-			<bBlitz>1</bBlitz>
-			<bAmphib>0</bAmphib>
-			<bRiver>0</bRiver>
-			<bEnemyRoute>0</bEnemyRoute>
-			<bAlwaysHeal>0</bAlwaysHeal>
-			<bHillsDoubleMove>0</bHillsDoubleMove>
-			<bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
-			<iVisibilityChange>0</iVisibilityChange>
-			<iMovesChange>0</iMovesChange>
-			<iMoveDiscountChange>0</iMoveDiscountChange>
-			<iAirRangeChange>0</iAirRangeChange>
-			<iInterceptChange>0</iInterceptChange>
-			<iEvasionChange>0</iEvasionChange>
-			<iWithdrawalChange>0</iWithdrawalChange>
-			<iCargoChange>0</iCargoChange>
-			<iCollateralDamageChange>0</iCollateralDamageChange>
-			<iBombardRateChange>0</iBombardRateChange>
-			<iFirstStrikesChange>0</iFirstStrikesChange>
-			<iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
-			<iEnemyHealChange>0</iEnemyHealChange>
-			<iNeutralHealChange>0</iNeutralHealChange>
-			<iFriendlyHealChange>0</iFriendlyHealChange>
-			<iSameTileHealChange>0</iSameTileHealChange>
-			<iAdjacentTileHealChange>0</iAdjacentTileHealChange>
-			<iCombatPercent>0</iCombatPercent>
-			<iCityAttack>0</iCityAttack>
-			<iCityDefense>0</iCityDefense>
-			<iHillsAttack>0</iHillsAttack>
-			<iHillsDefense>0</iHillsDefense>
-			<iKamikazePercent>0</iKamikazePercent>
-			<iRevoltProtection>0</iRevoltProtection>
-			<iCollateralDamageProtection>0</iCollateralDamageProtection>
-			<iPillageChange>0</iPillageChange>
-			<iUpgradeDiscount>0</iUpgradeDiscount>
-			<iExperiencePercent>0</iExperiencePercent>
-			<TerrainAttacks/>
-			<TerrainDefenses/>
-			<FeatureAttacks/>
-			<FeatureDefenses/>
-			<UnitCombatMods/>
-			<DomainMods/>
-			<TerrainDoubleMoves/>
-			<FeatureDoubleMoves/>
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-			</UnitCombats>
-			<HotKey/>
-			<bAltDown>0</bAltDown>
-			<bShiftDown>0</bShiftDown>
-			<bCtrlDown>0</bCtrlDown>
-			<iHotKeyPriority>0</iHotKeyPriority>
-			<Button>,Art/Interface/Buttons/Promotions/Blitz.dds,Art/Interface/Buttons/Promotions_Atlas.dds,8,1</Button>
-		</PromotionInfo>
-		<PromotionInfo>
-			<Type>PROMOTION_COMMANDO</Type>
-			<Description>TXT_KEY_PROMOTION_COMMANDO</Description>
-			<Sound>AS2D_IF_LEVELUP</Sound>
-			<LayerAnimationPath>NONE</LayerAnimationPath>
-			<PromotionPrereq>NONE</PromotionPrereq>
-			<PromotionPrereqOr1>PROMOTION_COMBAT4</PromotionPrereqOr1>
-			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-			<TechPrereq>TECH_MILITARY_SCIENCE</TechPrereq>
-			<StateReligionPrereq>NONE</StateReligionPrereq>
-			<bLeader>0</bLeader>
-			<bBlitz>0</bBlitz>
-			<bAmphib>0</bAmphib>
-			<bRiver>0</bRiver>
-			<bEnemyRoute>1</bEnemyRoute>
-			<bAlwaysHeal>0</bAlwaysHeal>
-			<bHillsDoubleMove>0</bHillsDoubleMove>
-			<bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
-			<iVisibilityChange>0</iVisibilityChange>
-			<iMovesChange>0</iMovesChange>
-			<iMoveDiscountChange>0</iMoveDiscountChange>
-			<iAirRangeChange>0</iAirRangeChange>
-			<iInterceptChange>0</iInterceptChange>
-			<iEvasionChange>0</iEvasionChange>
-			<iWithdrawalChange>0</iWithdrawalChange>
-			<iCargoChange>0</iCargoChange>
-			<iCollateralDamageChange>0</iCollateralDamageChange>
-			<iBombardRateChange>0</iBombardRateChange>
-			<iFirstStrikesChange>0</iFirstStrikesChange>
-			<iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
-			<iEnemyHealChange>0</iEnemyHealChange>
-			<iNeutralHealChange>0</iNeutralHealChange>
-			<iFriendlyHealChange>0</iFriendlyHealChange>
-			<iSameTileHealChange>0</iSameTileHealChange>
-			<iAdjacentTileHealChange>0</iAdjacentTileHealChange>
-			<iCombatPercent>0</iCombatPercent>
-			<iCityAttack>0</iCityAttack>
-			<iCityDefense>0</iCityDefense>
-			<iHillsAttack>0</iHillsAttack>
-			<iHillsDefense>0</iHillsDefense>
-			<iKamikazePercent>0</iKamikazePercent>
-			<iRevoltProtection>0</iRevoltProtection>
-			<iCollateralDamageProtection>0</iCollateralDamageProtection>
-			<iPillageChange>0</iPillageChange>
-			<iUpgradeDiscount>0</iUpgradeDiscount>
-			<iExperiencePercent>0</iExperiencePercent>
-			<TerrainAttacks/>
-			<TerrainDefenses/>
-			<FeatureAttacks/>
-			<FeatureDefenses/>
-			<UnitCombatMods/>
-			<DomainMods/>
-			<TerrainDoubleMoves/>
-			<FeatureDoubleMoves/>
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-			</UnitCombats>
-			<HotKey/>
-			<bAltDown>0</bAltDown>
-			<bShiftDown>0</bShiftDown>
-			<bCtrlDown>0</bCtrlDown>
-			<iHotKeyPriority>0</iHotKeyPriority>
-			<Button>,Art/Interface/Buttons/Promotions/Commando.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,3</Button>
 		</PromotionInfo>
 		<PromotionInfo>
 			<Type>PROMOTION_MEDIC1</Type>
@@ -1420,6 +2198,26 @@
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -1510,7 +2308,27 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -1586,6 +2404,10 @@
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -1667,6 +2489,10 @@
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -1740,6 +2566,10 @@
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -1824,6 +2654,10 @@
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -1919,6 +2753,10 @@
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -1999,6 +2837,10 @@
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -2074,6 +2916,14 @@
 					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -2147,6 +2997,14 @@
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -2229,6 +3087,14 @@
 					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -2300,6 +3166,14 @@
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -2369,6 +3243,14 @@
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -2445,6 +3327,14 @@
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -2532,6 +3422,26 @@
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -2622,7 +3532,27 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -2713,7 +3643,28 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -2809,7 +3760,27 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -2880,7 +3851,23 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -2956,7 +3943,23 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -3032,7 +4035,23 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -3100,6 +4119,10 @@
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -3181,6 +4204,18 @@
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -3258,6 +4293,18 @@
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -3339,6 +4386,14 @@
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -3410,6 +4465,14 @@
 					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -3475,6 +4538,10 @@
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -3544,6 +4611,10 @@
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -3553,112 +4624,13 @@
 			<Button>,Art/Interface/Buttons/Promotions/Navigation2.dds,Art/Interface/Buttons/Promotions_Atlas.dds,8,4</Button>
 		</PromotionInfo>
 		<PromotionInfo>
-			<Type>PROMOTION_LEADER</Type>
-			<Description>TXT_KEY_PROMOTION_GREAT_GENERAL</Description>
-			<Sound>AS2D_IF_LEVELUP</Sound>
-			<LayerAnimationPath>NONE</LayerAnimationPath>
-			<PromotionPrereq>NONE</PromotionPrereq>
-			<PromotionPrereqOr1>NONE</PromotionPrereqOr1>
-			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-			<TechPrereq>NONE</TechPrereq>
-			<StateReligionPrereq>NONE</StateReligionPrereq>
-			<bLeader>1</bLeader>
-			<bBlitz>0</bBlitz>
-			<bAmphib>0</bAmphib>
-			<bRiver>0</bRiver>
-			<bEnemyRoute>0</bEnemyRoute>
-			<bAlwaysHeal>0</bAlwaysHeal>
-			<bHillsDoubleMove>0</bHillsDoubleMove>
-			<bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
-			<iVisibilityChange>0</iVisibilityChange>
-			<iMovesChange>0</iMovesChange>
-			<iMoveDiscountChange>0</iMoveDiscountChange>
-			<iAirRangeChange>0</iAirRangeChange>
-			<iInterceptChange>0</iInterceptChange>
-			<iEvasionChange>0</iEvasionChange>
-			<iWithdrawalChange>0</iWithdrawalChange>
-			<iCargoChange>0</iCargoChange>
-			<iCollateralDamageChange>0</iCollateralDamageChange>
-			<iBombardRateChange>0</iBombardRateChange>
-			<iFirstStrikesChange>0</iFirstStrikesChange>
-			<iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
-			<iEnemyHealChange>0</iEnemyHealChange>
-			<iNeutralHealChange>0</iNeutralHealChange>
-			<iFriendlyHealChange>0</iFriendlyHealChange>
-			<iSameTileHealChange>0</iSameTileHealChange>
-			<iAdjacentTileHealChange>0</iAdjacentTileHealChange>
-			<iCombatPercent>0</iCombatPercent>
-			<iCityAttack>0</iCityAttack>
-			<iCityDefense>0</iCityDefense>
-			<iHillsAttack>0</iHillsAttack>
-			<iHillsDefense>0</iHillsDefense>
-			<iKamikazePercent>0</iKamikazePercent>
-			<iRevoltProtection>0</iRevoltProtection>
-			<iCollateralDamageProtection>0</iCollateralDamageProtection>
-			<iPillageChange>0</iPillageChange>
-			<iUpgradeDiscount>100</iUpgradeDiscount>
-			<iExperiencePercent>0</iExperiencePercent>
-			<TerrainAttacks/>
-			<TerrainDefenses/>
-			<FeatureAttacks/>
-			<FeatureDefenses/>
-			<UnitCombatMods/>
-			<DomainMods/>
-			<TerrainDoubleMoves/>
-			<FeatureDoubleMoves/>
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-			</UnitCombats>
-			<HotKey/>
-			<bAltDown>0</bAltDown>
-			<bShiftDown>0</bShiftDown>
-			<bCtrlDown>0</bCtrlDown>
-			<iHotKeyPriority>0</iHotKeyPriority>
-			<Button>,Art/Interface/Buttons/Promotions/Combat5.dds,Art/Interface/Buttons/Warlords_Atlas_1.dds,5,10</Button>
-		</PromotionInfo>
-		<PromotionInfo>
 			<Type>PROMOTION_LEADERSHIP</Type>
 			<Description>TXT_KEY_PROMOTION_LEADERSHIP</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<LayerAnimationPath>NONE</LayerAnimationPath>
-			<PromotionPrereq>PROMOTION_LEADER</PromotionPrereq>
-			<PromotionPrereqOr1>NONE</PromotionPrereqOr1>
-			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+			<PromotionPrereq>NONE</PromotionPrereq>
+			<PromotionPrereqOr1>PROMOTION_LEADER</PromotionPrereqOr1>
+			<PromotionPrereqOr2>PROMOTION_GENERAL</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
 			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
@@ -3742,6 +4714,26 @@
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -3755,9 +4747,9 @@
 			<Description>TXT_KEY_PROMOTION_TACTICS</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<LayerAnimationPath>NONE</LayerAnimationPath>
-			<PromotionPrereq>PROMOTION_LEADER</PromotionPrereq>
-			<PromotionPrereqOr1>NONE</PromotionPrereqOr1>
-			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+			<PromotionPrereq>NONE</PromotionPrereq>
+			<PromotionPrereqOr1>PROMOTION_LEADER</PromotionPrereqOr1>
+			<PromotionPrereqOr2>PROMOTION_GENERAL</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
 			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
@@ -3841,6 +4833,26 @@
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -3854,9 +4866,9 @@
 			<Description>TXT_KEY_PROMOTION_COMBAT6</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<LayerAnimationPath>NONE</LayerAnimationPath>
-			<PromotionPrereq>PROMOTION_LEADER</PromotionPrereq>
-			<PromotionPrereqOr1>PROMOTION_COMBAT5</PromotionPrereqOr1>
-			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+			<PromotionPrereq>PROMOTION_COMBAT5</PromotionPrereq>
+			<PromotionPrereqOr1>PROMOTION_LEADER</PromotionPrereqOr1>
+			<PromotionPrereqOr2>PROMOTION_GENERAL</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
 			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
@@ -3937,7 +4949,27 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_AIR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -3953,9 +4985,9 @@
 			<Description>TXT_KEY_PROMOTION_MORALE</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<LayerAnimationPath>NONE</LayerAnimationPath>
-			<PromotionPrereq>PROMOTION_LEADER</PromotionPrereq>
-			<PromotionPrereqOr1>NONE</PromotionPrereqOr1>
-			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+			<PromotionPrereq>NONE</PromotionPrereq>
+			<PromotionPrereqOr1>PROMOTION_LEADER</PromotionPrereqOr1>
+			<PromotionPrereqOr2>PROMOTION_GENERAL</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
 			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
@@ -4039,6 +5071,26 @@
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -4052,9 +5104,9 @@
 			<Description>TXT_KEY_PROMOTION_MEDIC3</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<LayerAnimationPath>NONE</LayerAnimationPath>
-			<PromotionPrereq>PROMOTION_LEADER</PromotionPrereq>
-			<PromotionPrereqOr1>PROMOTION_MEDIC2</PromotionPrereqOr1>
-			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+			<PromotionPrereq>PROMOTION_MEDIC2</PromotionPrereq>
+			<PromotionPrereqOr1>PROMOTION_LEADER</PromotionPrereqOr1>
+			<PromotionPrereqOr2>PROMOTION_GENERAL</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
 			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
@@ -4128,6 +5180,26 @@
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -4335,6 +5407,10 @@
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -4404,6 +5480,10 @@
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 			</UnitCombats>
@@ -4480,6 +5560,204 @@
 			<bCtrlDown>0</bCtrlDown>
 			<iHotKeyPriority>0</iHotKeyPriority>
 			<Button>,Art/Interface/Buttons/TechTree/Corporation.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,5,15</Button>
+		</PromotionInfo>
+		<PromotionInfo>
+			<Type>PROMOTION_BLITZ</Type>
+			<Description>TXT_KEY_PROMOTION_BLITZ</Description>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
+			<PromotionPrereq>NONE</PromotionPrereq>
+			<PromotionPrereqOr1>PROMOTION_COMBAT3</PromotionPrereqOr1>
+			<PromotionPrereqOr2>PROMOTION_COMMANDER</PromotionPrereqOr2>
+			<TechPrereq>TECH_MILITARY_SCIENCE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
+			<bLeader>0</bLeader>
+			<bBlitz>1</bBlitz>
+			<bAmphib>0</bAmphib>
+			<bRiver>0</bRiver>
+			<bEnemyRoute>0</bEnemyRoute>
+			<bAlwaysHeal>0</bAlwaysHeal>
+			<bHillsDoubleMove>0</bHillsDoubleMove>
+			<bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+			<iVisibilityChange>0</iVisibilityChange>
+			<iMovesChange>0</iMovesChange>
+			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
+			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
+			<iCollateralDamageChange>0</iCollateralDamageChange>
+			<iBombardRateChange>0</iBombardRateChange>
+			<iFirstStrikesChange>0</iFirstStrikesChange>
+			<iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+			<iEnemyHealChange>0</iEnemyHealChange>
+			<iNeutralHealChange>0</iNeutralHealChange>
+			<iFriendlyHealChange>0</iFriendlyHealChange>
+			<iSameTileHealChange>0</iSameTileHealChange>
+			<iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+			<iCombatPercent>0</iCombatPercent>
+			<iCityAttack>0</iCityAttack>
+			<iCityDefense>0</iCityDefense>
+			<iHillsAttack>0</iHillsAttack>
+			<iHillsDefense>0</iHillsDefense>
+			<iKamikazePercent>0</iKamikazePercent>
+			<iRevoltProtection>0</iRevoltProtection>
+			<iCollateralDamageProtection>0</iCollateralDamageProtection>
+			<iPillageChange>0</iPillageChange>
+			<iUpgradeDiscount>0</iUpgradeDiscount>
+			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
+			<TerrainDefenses/>
+			<FeatureAttacks/>
+			<FeatureDefenses/>
+			<UnitCombatMods/>
+			<DomainMods/>
+			<TerrainDoubleMoves/>
+			<FeatureDoubleMoves/>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
+			<HotKey/>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<Button>,Art/Interface/Buttons/Promotions/Blitz.dds,Art/Interface/Buttons/Promotions_Atlas.dds,8,1</Button>
+		</PromotionInfo>
+		<PromotionInfo>
+			<Type>PROMOTION_COMMANDO</Type>
+			<Description>TXT_KEY_PROMOTION_COMMANDO</Description>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LayerAnimationPath>NONE</LayerAnimationPath>
+			<PromotionPrereq>NONE</PromotionPrereq>
+			<PromotionPrereqOr1>PROMOTION_COMBAT4</PromotionPrereqOr1>
+			<PromotionPrereqOr2>PROMOTION_COLONEL</PromotionPrereqOr2>
+			<TechPrereq>TECH_MILITARY_SCIENCE</TechPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
+			<bLeader>0</bLeader>
+			<bBlitz>0</bBlitz>
+			<bAmphib>0</bAmphib>
+			<bRiver>0</bRiver>
+			<bEnemyRoute>1</bEnemyRoute>
+			<bAlwaysHeal>0</bAlwaysHeal>
+			<bHillsDoubleMove>0</bHillsDoubleMove>
+			<bImmuneToFirstStrikes>0</bImmuneToFirstStrikes>
+			<iVisibilityChange>0</iVisibilityChange>
+			<iMovesChange>0</iMovesChange>
+			<iMoveDiscountChange>0</iMoveDiscountChange>
+			<iAirRangeChange>0</iAirRangeChange>
+			<iInterceptChange>0</iInterceptChange>
+			<iEvasionChange>0</iEvasionChange>
+			<iWithdrawalChange>0</iWithdrawalChange>
+			<iCargoChange>0</iCargoChange>
+			<iCollateralDamageChange>0</iCollateralDamageChange>
+			<iBombardRateChange>0</iBombardRateChange>
+			<iFirstStrikesChange>0</iFirstStrikesChange>
+			<iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
+			<iEnemyHealChange>0</iEnemyHealChange>
+			<iNeutralHealChange>0</iNeutralHealChange>
+			<iFriendlyHealChange>0</iFriendlyHealChange>
+			<iSameTileHealChange>0</iSameTileHealChange>
+			<iAdjacentTileHealChange>0</iAdjacentTileHealChange>
+			<iCombatPercent>0</iCombatPercent>
+			<iCityAttack>0</iCityAttack>
+			<iCityDefense>0</iCityDefense>
+			<iHillsAttack>0</iHillsAttack>
+			<iHillsDefense>0</iHillsDefense>
+			<iKamikazePercent>0</iKamikazePercent>
+			<iRevoltProtection>0</iRevoltProtection>
+			<iCollateralDamageProtection>0</iCollateralDamageProtection>
+			<iPillageChange>0</iPillageChange>
+			<iUpgradeDiscount>0</iUpgradeDiscount>
+			<iExperiencePercent>0</iExperiencePercent>
+			<TerrainAttacks/>
+			<TerrainDefenses/>
+			<FeatureAttacks/>
+			<FeatureDefenses/>
+			<UnitCombatMods/>
+			<DomainMods/>
+			<TerrainDoubleMoves/>
+			<FeatureDoubleMoves/>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARMOR_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE_OFFICER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
+			<HotKey/>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<Button>,Art/Interface/Buttons/Promotions/Commando.dds,Art/Interface/Buttons/Promotions_Atlas.dds,1,3</Button>
 		</PromotionInfo>
 	</PromotionInfos>
 </Civ4PromotionInfos>

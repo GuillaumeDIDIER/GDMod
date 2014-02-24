@@ -7,6 +7,12 @@
 <Civ4ArtDefines xmlns="x-schema:CIV4ArtDefinesSchema.xml">
 	<CivilizationArtInfos>
 		<CivilizationArtInfo>
+			<Type>ART_DEF_CIVILIZATION_GERNIE</Type>
+			<Button>,Art/Interface/TeamColor/GERNIE.dds</Button>
+			<Path>Art/Interface/TeamColor/FlagDECAL_FleurDeLis.dds</Path>
+			<bWhiteFlag>0</bWhiteFlag>
+		</CivilizationArtInfo>
+		<CivilizationArtInfo>
 			<Type>ART_DEF_CIVILIZATION_AMERICA</Type>
 			<Button>,Art/Interface/Buttons/Civilizations/America.dds,Art/Interface/Buttons/Civics_Civilizations_Religions_Atlas.dds,1,5</Button>
 			<Path>Art/Interface/TeamColor/FlagDECAL_Star.dds</Path>
